@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class SpringbootdemoprojectApplication {
 	
-	@RequestMapping("/")
+	@RequestMapping("/test1")
 	public String indexPage() {
 		return "Assalamualaikum wrwb";
 	}
