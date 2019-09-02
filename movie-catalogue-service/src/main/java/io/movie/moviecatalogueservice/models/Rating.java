@@ -1,6 +1,9 @@
 package io.movie.moviecatalogueservice.models;
 
 public class Rating {
+	public Rating() {
+	}
+
 	public Rating(String movieId, int rating) {
 		this.setMovieId(movieId);
 		this.setRating(rating);
